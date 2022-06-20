@@ -10,7 +10,10 @@ export default {
 
 <style lang="scss">
     .jumbotron {
-        background-color: bisque;
-        height: 80vh;
+        background-image: url('https://picsum.photos/1200/600');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        height: 70vh;
     }
 </style>
