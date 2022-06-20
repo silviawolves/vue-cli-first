@@ -1,15 +1,18 @@
 <template>
     <div>
       <titoloPagina></titoloPagina>
+      <jumbotron></jumbotron>
     </div>
 </template>
 
 <script>
 import titoloPagina from './components/PageTitle.vue'
+import jumbotron from './components/PageHero.vue'
 
 export default {
   components: {
     titoloPagina,
+    jumbotron,
   },
 }
 </script>
